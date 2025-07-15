@@ -1,0 +1,15 @@
+// --------------------------------------
+// 색상정의
+// --------------------------------------
+
+$primary: #FFDC16;
+$success: blue;
+$danger: red;
+$info: pink;
+$warning: tomato;
+
+$dark: #333;
+$light: #fafafa;
+body{
+  background-color: $primary;
+}
