@@ -1,5 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
+
 /* layouts */
 import AppLayout from "./layouts/AppLayout";
 /* pages */
@@ -12,6 +13,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import Footer from "./layouts/Footer";
 /* css */
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import "./styles/App.scss";
 
 function App() {

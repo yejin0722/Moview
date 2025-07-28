@@ -17,7 +17,7 @@ const AppLayout = () => {
     <div>
       <Navbar expand="lg" variant="dark" bg="dark">
         <Container>
-          <Navbar.Brand href="/">Movie 306</Navbar.Brand>
+          <Navbar.Brand href="/">MoView</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" id="navbar-toggler" />
           <Navbar.Collapse id="navbarScroll" >
             <Nav className="me-auto my-2 my-lg-0" navbarScroll>

@@ -1,11 +1,11 @@
 import React from 'react'
-
 import Banner from './Banner/Banner'
 import PopularMovieSlide from './PopularMovieSlide/PopularMovieSlide'
 import TopRatedMovieSlide from './TopRatedMovieSlide/TopRatedMovieSlide'
 import UpcomingMovieSlide from './UpcomingMovieSlide/UpcomingMovieSlide'
 import NowPlayingMovieSlide from './NowPlayingMovieSlide/NowPlayingMovieSlide'
 import { Container } from 'react-bootstrap'
+
 const HomePage = () => {
   const movieSections =
 [{
@@ -21,7 +21,7 @@ component:<PopularMovieSlide/>
 },{
 id:'topRated',
 title: "평점 높은 영화",
-description:"많은 사람들에게 사랑받은  영화입니다..",
+description:"많은 사람들에게 사랑받은  영화입니다.",
 component:<TopRatedMovieSlide/>
 },{
 id:'upcomming',
@@ -31,10 +31,10 @@ component:<UpcomingMovieSlide/>
 }]
   return (
     <div>
-      {/* <Banner></Banner> */}
+      <Banner></Banner>
     <Container>
     {movieSections.map(section=>(
-    <div key={section.id}>
+    <div key={section.id} style={{marginTop: "50px"}}>
       <h2>{section.title}</h2>
       <p>{section.description}</p>
       {section.component}

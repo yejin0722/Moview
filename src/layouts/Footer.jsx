@@ -8,7 +8,7 @@ const Footer = () => {
       <Container>
         <Row className="align-items-center text-center text-md-start">
           <Col md={4} className="mb-3 mb-md-0">
-            <h5 className="mb-2">MOVIE 306</h5>
+            <h5 className="mb-2">MoView</h5>
             <p className="mb-0 small">© 2025 MovieLog. All rights reserved.</p>
           </Col>
           <Col md={4} className="mb-3 mb-md-0 text-center">

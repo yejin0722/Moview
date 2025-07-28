@@ -224,7 +224,7 @@ const MovieDetailPage = () => {
                 <div className="mt-2">
                   <strong>{rec.title}</strong>
                   <br />
-                  <small className="text-muted">{rec.release_date}</small>
+                  <small style={{color: "#777"}}>{rec.release_date}</small>
                 </div>
               </Col>
             ))}
