@@ -30,6 +30,7 @@
 
  ## ✨ 데모 사이트
 👉 [Moview 웹사이트 바로가기](https://beautiful-mousse-077818.netlify.app/)
+📱 **태블릿, 모바일환경 최적화** 완료
 
 ---
 
