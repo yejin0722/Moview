@@ -11,7 +11,7 @@
 
 
 ## 📅 제작 기간
-- 약 30시간
+- 약 35시간
 
 
 ---
@@ -19,28 +19,34 @@
 
 ## 💻 개발 세팅 
 
-- **개발 환경** : <img src="https://img.shields.io/badge/windows10-0078D6?style=flat&logo=windows10&logoColor=white"/>
-
-- **사용 프로그램** : <img src="https://img.shields.io/badge/Vs_code-007ACC?style=flat&logo=visualstudiocode&logoColor=white"/> <img src="https://img.shields.io/badge/figma-F24E1E?style=flat&logo=figma&logoColor=white"/>
-
-- **사용 언어** : <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/> <img src="https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white"/>
+- **OS** : ![Windows](https://img.shields.io/badge/Windows_10-0078D6?style=flat&logo=windows10&logoColor=white)
+- **IDE** : ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+- **사용 언어** : ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+- **프레임워크** : ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+- **UI 라이브러리** : ![React-Bootstrap](https://img.shields.io/badge/React--Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 
 ---
 
 
  ## ✨ 데모 사이트
-👉 [피자스톰 웹사이트 바로가기](https://yejin0722.github.io/PizzaStorm/)
+👉 [Moview 웹사이트 바로가기](https://beautiful-mousse-077818.netlify.app/)
 
 ---
 
 ## 📦 프로젝트 폴더 구조
 
 
-  PizzaStorm  
-┣ 📂 css  
-┣ 📂 images  
-┣ 📂 js   
-┗ 📂 scss  
-  index.html
+  Moview     
+┣ 📂 public   
+┃ ┗ 📄 index.html   
+┣ 📂 src   
+┃ ┣ 📂 components   
+┃ ┣ 📂 data  
+┃ ┣ 📂 pages                
+┃ ┣ 📂 styles  
+┃ ┣ 📄 App.js               
+┃ ┗ 📄 index.js             
+┣ 📄 package.json    
+┗ 📄 README.md  
 
 ---
