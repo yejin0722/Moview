@@ -26,7 +26,7 @@ const MovieCard = ({movie}) => {
           <div className="overlay">
             <div className="text-wrap">
               <p className='adult'>{adult}</p>
-              <p className='vote'>{movie.vote_average.toFixed(1)}</p>
+              <p className='vote'>⭐평점 : {movie.vote_average.toFixed(1)}</p>
               <p className='genre'>{genreNames?.join('/')}</p>
               <p className='overview'>{movie.overview}</p>
             </div>

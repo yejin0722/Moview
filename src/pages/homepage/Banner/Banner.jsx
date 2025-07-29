@@ -34,7 +34,7 @@ const Banner = () => {
         <h2>{data.data.results[0].title}</h2>
         <span>{data.data.results[0].release_date}</span>
         <p>{data.data.results[0].overview}</p>
-        <p>{data.data.results[0].vote_average.toFixed(1)}</p>
+        <p>⭐평점 : {data.data.results[0].vote_average.toFixed(1)}</p>
         <Button className='bannerShowBtn' onClick={handleShow}>미리보기</Button>
       </div>
       <Modal show={show} onHide={handleClose} >
